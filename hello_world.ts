@@ -1,8 +1,8 @@
-console.log("starting supply chain ...");
-
 import {
     Account, NetworkType
 } from "nem2-sdk";
+console.log("starting supply chain ...");
+
 
 const account = Account.generateNewAccount(NetworkType.MIJIN_TEST);
 
